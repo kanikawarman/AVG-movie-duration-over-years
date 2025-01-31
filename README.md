@@ -29,7 +29,8 @@ To run the analysis locally, follow these steps:
 git clone https://github.com/yourusername/netflix-movie-duration-analysis.git
 
 cd netflix-movie-duration-analysis
-3. Install Dependencies
+
+2. Install Dependencies
 This project requires Python and the following libraries:
 * pandas
 * matplotlib
@@ -37,8 +38,10 @@ This project requires Python and the following libraries:
 You can install the dependencies using pip:
 
 pip install -r requirements.txt
+
 3. Load the Data
 Make sure the data file (netflix_data.csv) is available in the datasets/ directory. If it is not included, you can download it from the relevant source (such as Kaggle or other open datasets).
+
 4. Run the Notebook
 After setting up your environment, open the Jupyter notebook (netflix_movie_duration_analysis.ipynb) and run the cells to explore the data and generate the visualizations.
 
